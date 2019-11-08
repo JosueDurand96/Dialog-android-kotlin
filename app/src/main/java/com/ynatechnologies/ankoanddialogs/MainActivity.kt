@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         })
 
 
+
         val builder: AlertDialog.Builder = AlertDialog.Builder(this)
         val inflater: LayoutInflater = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         val dialogLayout: View = inflater.inflate(R.layout.dialog_custom, dialog_sign_in)
